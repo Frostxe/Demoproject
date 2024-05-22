@@ -164,35 +164,53 @@ navbar__contact .phone-number {
 	object-fit: cover;
 }
 
-.about__about {
-	width: 545px;
-	margin: 50px auto 0 55px;
+.services {
+    background-color: rgb(190, 173, 173);;
+    padding: 100px 0;
 }
 
-.about__about__info {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 21px;
-	margin-bottom: 50px;
+.services__title {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-.about__about__bold {
-	font-weight: 600;
-	font-size: 18px;
-	line-height: 21px;
+.services__title h3 {
+    font-size: 36px;
+    color: darkred;
+    font-weight: 700;
 }
 
-.about__about__list {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.services__title p {
+    font-size: 18px;
+    color: #555;
 }
 
-.about__about__list li {
-	font-weight: 300;
-	font-size: 18px;
-	line-height: 25px;
+.services__list {
+    display: flex;
+    justify-content: center;
 }
 
+.service {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h4 {
+    font-size: 24px;
+    color: darkred;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    color: #666;
+}
 /* ======================================== */
 
 .venue__container {
